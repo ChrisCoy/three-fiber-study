@@ -1,81 +1,36 @@
-<h1 align='center'>Vite + React + TypeScript + Eslint + Prettier Template ⚡</h1>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Create a new project with Vite, React JS, TypeScript, Eslint, Prettier in just 1 second and you don't need to setup anything.
+## Getting Started
 
-#### **Vercel Deploy: https://vite-react-ts-eslint-prettier.vercel.app**
+First, run the development server:
 
-![image](https://user-images.githubusercontent.com/70432453/170648662-2ff424b9-74e9-4754-a04d-512fe1496a3b.png)
-
-## **Some Features 📋**
-
-Alias Import
-
-![image](https://user-images.githubusercontent.com/70432453/170644457-ede03cca-44e9-4543-94d3-412c9d317063.png)
-
-Hook Warning
-
-![image](https://user-images.githubusercontent.com/70432453/170638708-23a20ffd-156e-494a-84be-b1e1cfdb5c93.png)
-
-Prettier Warning
-
-![image](https://user-images.githubusercontent.com/70432453/170639043-24423ed1-73cc-4730-b270-2acea1ae0c74.png)
-
-Etc...
-
-## **Using 📦**
-
-1. Clone Template
-
-```
-git clone https://github.com/igdev116/vite-react-ts-eslint-prettier.git
-```
-
-2. Install Packages
-
-```
-yarn install
-```
-
-3. Start Project
-
-```
+```bash
+npm run dev
+# or
 yarn dev
 ```
 
-4. If you using git, delete the existing folder .git after cloning (open `git bash` or other terminal)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-rm -rf .git
-```
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## **Options ✍️**
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-1. Check lint
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-```
-yarn lint
-```
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-2. Fix lint
+## Learn More
 
-```
-yarn lint:fix
-```
+To learn more about Next.js, take a look at the following resources:
 
-3. Check prettier
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```
-yarn prettier
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-4. Fix prettier
+## Deploy on Vercel
 
-```
-yarn prettier:fix
-```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-5. Fix lint and prettier
-
-```
-yarn format
-```
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
